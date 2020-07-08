@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width: 100%;
+   
+}
+body{
+    font-family: 'Nunito Sans', sans-serif
+}
+nav a{
+    border-radius: 15px;
+    color:white;
+}
+nav a.plan:hover{
+    color:mediumslateblue;
+}
+nav a.learn:hover{
+    color:fuchsia;
+}
+nav a.join:hover{
+    color:olive;
+}
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.plan {
+    background-color:#FF764E;
+    padding: 25px;
+
+}
+.learn{
+    background-color:#5ED3EB;
+    padding: 25px;
+}
+.join{
+    background-color:#FFCD69;
+    padding: 25px;
+}
+
+/*Images section*/
+#valley{
+    border-radius: 50%;
+    margin:0 auto;
+}
+#fire{
+    height: 25%;
+    width:25%;
+}
+#car{
+    height: 25%;
+    width:25%;
+}
+#range{
+   
+}
+/*End of Images section*/
+
+footer{
+    background-color: #F9E7DC;
+}
