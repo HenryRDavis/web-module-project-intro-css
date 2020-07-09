@@ -1,0 +1,95 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width: 100%;
+   border: 1px solid red;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav a{
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 15px;
+    color:white;
+    padding: 2%;
+    margin:2% 5% 2% 11%;
+}
+nav a.plan:hover{
+    color:mediumslateblue;
+}
+nav a.learn:hover{
+    color:fuchsia;
+}
+nav a.join:hover{
+    color:olive;
+}
+.container{
+    display:inline-block;
+}
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.plan {
+    background-color:#FF764E;
+}
+.learn{
+    background-color:#5ED3EB;
+}
+.join{
+    background-color:#FFCD69;
+}
+.great{
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: #DDB9A3;
+    padding: 1%;
+    margin: 0 4%;
+}
+.Natural{
+    margin: 0 30%;
+    font-size: 30px;
+}
+.RV{
+    margin:0 30%;
+    font-size: 30px;
+}
+/*Images section*/
+.container #valley{
+    position: relative;
+    border-radius: 50%;
+    width: 15%;
+    margin:2% 9%;
+}
+#fire{
+    height: 25%;
+    width: 25%;
+    padding: 8%;
+    margin: 0 40%;
+}
+#car{
+    height: 25%;
+    width: 25%;
+    padding: 8%;
+    margin: 0 40%;
+}
+#range{
+    height: 80vh;
+    width: 200vh;
+    background-size:cover;
+    background-position: top;
+    background-attachment:fixed;
+}
+/*End of Images section*/
+
+footer{
+    background-color: #F9E7DC;
+}
