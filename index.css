@@ -82,10 +82,11 @@ p {
     margin: 0 40%;
 }
 #range{
-    background-attachment: fixed;
-    object-fit: cover;
     height: 80vh;
     width: 200vh;
+    background-size:cover;
+    background-position: top;
+    background-attachment:fixed;
 }
 /*End of Images section*/
 
